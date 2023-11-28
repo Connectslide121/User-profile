@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    background-image: url(https://source.unsplash.com/four-person-hands-wrap-around-shoulders-while-looking-at-sunset-PGnqT0rXWLs);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+
+}
+
+.profile{
+    width: 80%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #b4b3b29a;
+    border-radius: 10px;
+}
+
+.banner{
+    height: 200px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.banner img{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.main-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 2%;
+}
+
+.posts{
+    background: #F2F3F3;
+    flex-basis: 68%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 2%;
+    border-radius: 10px;
+}
+
+.posts h1{
+    padding: 30px;
+}
+
+.user-info{
+    background: #3498DB;
+    flex-basis: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-gap: 10px;
+    padding: 5% 2%;
+    border-radius: 10px;
+}
+
+.user-info img{
+    background: #2980B9;
+    width: 60%;
+    margin-top: 5%;
+    border-radius: 20px;
+}
+
+.user-info h1{
+    color: #F2F3F3;
+}
+
+.user-info h2{
+    color: #F2F3F3;
+
+}
+
+.user-info p{
+    text-align: center;
+    color: #F2F3F3;
+}
+
+.user-info i{
+    margin-top: 20px;
+    color: #F2F3F3;
+}

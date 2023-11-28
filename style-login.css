@@ -5,12 +5,16 @@
     font-family: "Poppins", sans-serif;
 }
 
-body{
+.container{
+    background-image: url(https://source.unsplash.com/four-person-hands-wrap-around-shoulders-while-looking-at-sunset-PGnqT0rXWLs);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: #ffffff;
+
 }
 
 .wrapper{
